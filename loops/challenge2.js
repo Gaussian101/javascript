@@ -2,7 +2,7 @@
 var string = "jrfndklhgfndjkjlkgperfijfhidknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhiejkdsoiufghedjwsh"
 var hi = "hi"
 
-console.log(`First occurance of hi is position ${string.indexOf(hi)} and the last is position ${string.lastIndexOf(hi)}`)
+//console.log(`First occurance of hi is position ${string.indexOf(hi)} and the last is position ${string.lastIndexOf(hi)}`)
 
 
 var array = []

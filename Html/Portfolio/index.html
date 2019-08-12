@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="myportfolio.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" id="title-container">
+            <div class="page-header row align-items-center">
+                <h1 class="col">Portfolio</h1>
+                <div class="card-header" id="headingOne">
+                    <div class="row align-items-center">
+                        <div class="col align-items-center">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" id="CardHeadOne" data-toggle="collapse"
+                                        data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Welcome to my Portfolio
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col align-items-center">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" id="CardHeadTwo" data-toggle="collapse"
+                                        data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Want to know more about me?
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col align-items-center">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" id="CardHeadThree" data-toggle="collapse"
+                                        data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        My current Portfolio
+                                    </button>
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="col align-items-center">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link collapsed" id="CardHeadFour" data-toggle="collapse"
+                                    data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Points of interest
+                                </button>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main hvr-overline-from-right">
+        <div id="accordion">
+            <div class="card">
+                <div class="container no-border" id="Intro">
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="image-right col-lg-4" id="IntroImg">
+                                </div>
+                                <div class="content col-md" id="IntroContent">
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente distinctio
+                                        quam repellendus eius nobis dolor harum, laborum eligendi earum provident sunt
+                                        fuga reprehenderit nam adipisci debitis officia quos facere voluptatem!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="container no-border" id="About">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="row">
+                            <div class="content col-md" id="AboutContent">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente distinctio quam
+                                    repellendus eius nobis dolor harum, laborum eligendi earum provident sunt fuga
+                                    reprehenderit nam adipisci debitis officia quos facere voluptatem!
+                                </p>
+                            </div>
+                            <div class="image-right col-lg-4" id="AboutImg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="container no-border" id="Portfolio">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="row">
+                            <div class="image-right col-lg-4" id="PortfolioImg">
+                            </div>
+                            <div class="content col-md" id="PortfolioContent">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente distinctio quam
+                                    repellendus eius nobis dolor harum, laborum eligendi earum provident sunt fuga
+                                    reprehenderit nam adipisci debitis officia quos facere voluptatem!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="container no-border" id="Interesting">
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="row">
+                            <div class="content col-md" id="InterestingContent">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente distinctio quam
+                                    repellendus eius nobis dolor harum, laborum eligendi earum provident sunt fuga
+                                    reprehenderit nam adipisci debitis officia quos facere voluptatem!
+                                </p>
+                            </div>
+                            <div class="image-left col-lg-4" id="InterestingImg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

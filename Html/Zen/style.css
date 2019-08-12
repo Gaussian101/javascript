@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+html{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+[role=banner]{
+    height: 30%;
+    width: 100%;
+    background: url(huntington.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8% 0 8% 0;
+}
+h1{
+    position: relative;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 100);
+    font-family: Roboto;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+h2{
+    font-family: Satisfy;
+    font-size: 17px;
+    text-align: center;
+    color: #ffffff;
+    padding-left: 24px;
+    background: url(zen.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: calc(50% - 100px) 50%;
+}
+h3{
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: bold;
+    padding-left: 10%;
+    margin: 0;
+    padding-top: 2%;
+}
+p{
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    width: 80%;
+    text-align: justify;
+    margin: 0;
+    padding: 1% 10% 1% 10%;
+}
+#zen-intro div p a{
+    color: #000000;
+    text-decoration: none;
+}
+#zen-intro div p a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-intro div p abbr{
+    color: #000000;
+    text-decoration: none;
+}
+#zen-intro div p abbr:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-explanation p abbr{
+    text-decoration: none;
+    color: #000000;
+}
+#zen-explanation p abbr:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-participation{
+    background: darkolivegreen;
+    background-image: url(bamboo.png);
+    color: #ffffff;
+}
+#zen-benefits{
+    background: darkolivegreen;
+    background-image: url(bamboo.png);
+    color: #ffffff;
+}
+#zen-participation p abbr{
+    color: #ffffff;
+    text-decoration: none;
+}
+#zen-participation p a{
+    color: #ffffff;
+    text-decoration: none;
+}
+#zen-participation p abbr:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-participation p a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-benefits p abbr{
+    color: #ffffff;
+    text-decoration: underline;
+}
+#zen-benefits p abbr:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+[role=contentinfo]{
+    background-color: darkolivegreen;
+    background-image: url(koi.jpg);
+    width: 80%;
+    min-height: 150px;
+    padding-top: 5%;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+.fancy{
+    font-family: Satisfy;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.fancy:hover{
+    text-decoration: underline;
+}
+#zen-requirements p abbr{
+    text-decoration: none;
+}
+#zen-requirements p abbr:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-requirements p a:not(.fancy){
+    color: #000000;
+    text-decoration: none;
+}
+#zen-requirements p a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+footer{
+    position: relative;
+    height: 10%;
+    width: 80%;
+    padding: 10px 10% 10px 10%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background-color: darkslategrey;
+}
+footer a{
+    font-size: 34px;
+    color: #ffffff;
+}
+footer a:hover i{
+    opacity: 0.5;
+}
+nav{
+    background-color: rgb(121, 158, 116);
+}
+nav ul{
+    padding: 0 10% 0 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    list-style: none;
+    margin: 0;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: slategrey;
+}
+nav ul li{
+    width: 50%;
+    border-bottom: 1px solid;
+    border-color: slategrey;
+    font-family: Roboto;
+    font-size: 13px;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-content: space-between;
+    padding: 2% 0% 2% 0%;
+}
+.design-name{
+    position: relative;
+    font-family: Roboto;
+    color: #161616;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 2%;
+}
+.designer-name{
+    font-family: IBM Plex Mono;
+    font-size: 12px;
+    color: lightgrey;
+    text-decoration: none;
+    padding-left: 2%;
+}
+.select{
+    display: none;
+}
+.archives{
+    display: none;
+}
+.resources{
+    display: none;
+}
+.next a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.viewall a{
+    color: lightgrey;
+    text-decoration: none;
+}
+.next a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+.viewall a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+.zen-resources{
+    background-image: url(bamboo.png);
+    background-color: darkolivegreen;
+    width: 80%;
+    height: 150px;
+    padding: 2% 10% 2% 10%;
+}
+.zen-resources ul{
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.zen-resources ul li{
+    position: relative;
+    width: 50%;
+    height: 33.33333%;
+    text-align: center;
+    font-family: Roboto;
+}
+#zen-resources ul li a{
+    color: #161616;
+    text-decoration: none;
+}
+#zen-resources ul li a:hover{
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#zen-resources ul li abbr{
+    color: #161616;
+    text-decoration: none;
+}

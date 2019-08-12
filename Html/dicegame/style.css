@@ -1,0 +1,41 @@
+body{
+    background-color: darkorange;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.game-area{
+    width: 30vw;
+    height: 40vh;
+    margin-top: 30vh;
+    text-align: center;
+    border: solid grey;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.roll-area{
+    width: 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.dice{
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 10%;
+}
+button{
+    background-color: yellow;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.roll{
+    width: 100%;
+}

@@ -1,0 +1,143 @@
+@font-face {
+    font-family: 'RoadRage';
+    font-style: normal;
+    font-weight: normal;
+    src: local('RoadRage'), url('Road_Rage.woff') format('woff');
+    }
+body{
+    background-image: url("images/connectwork.png")
+}
+.container{
+    border: solid darkorange;
+    border-radius: 0% 0% 10vw 0%;
+    object-fit: cover;
+}
+.image-right{
+    position: relative;
+    width: 20vw;
+    height: 30vh;
+    object-fit: cover;
+    background-image: url("images/alligator.jpg");
+    background-position: center;
+    /* animation-name: expand-right;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-play-state: paused; */
+    z-index: 1;
+}
+.image-left{
+    position: relative;
+    width: 20vw;
+    height: 30vh;
+    object-fit: cover;
+    background-image: url("images/alligator.jpg");
+    background-position: center;
+    /* animation-name: expand-left;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-play-state: paused;*/
+    z-index: 1; 
+}
+.content{
+    /* z-index: -1; */
+    opacity: 0;
+    /* animation: appear;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    animation-play-state: paused; */
+} 
+/* @keyframes expandRight{
+    0%{
+        left: 25%;
+    }
+    100%{
+        left: 0%;
+    }
+} */
+/* @keyframes expand-left{
+    0%{
+        right: 25%;
+    }
+    100%{
+        right: 0%;
+    }
+} */
+/* @keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+#title-container{
+    height: 60vh;
+    margin-top: 20vh;
+}
+.page-header{
+    position: relative;
+    height: 100%;
+}
+h1{
+    position: relative;
+    border: solid red;
+    font-family: RoadRage;
+    color: deeppink;
+    text-align: center;
+}
+h2{
+    font-family: RoadRage;
+    color: deeppink;
+}
+p{
+    color: darkorange;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0)
+}
+ .hvr-overline-from-right {
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    position: relative;
+    overflow: hidden;
+}
+.hvr-overline-from-right:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    top: 0;
+    border-top: solid blue;
+    border-radius: 10%;
+    height: 4px;
+    transition-property: right;
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    
+}
+    /* .hvr-overline-from-right:hover:before,*/ .hvr-overline-from-right:focus:before, .hvr-overline-from-right:active:before {
+    right: 0;
+}
+.card-header{
+    border: none;
+}
+.card{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+/*.no-border{
+    border: none;
+} */
+.btn{
+    font-family: RoadRage;
+    color: deeppink;
+    text-decoration: none;
+    font-size: 2rem;
+}
+.btn:hover{
+    text-decoration: underline;
+    color: deeppink;
+}

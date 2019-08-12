@@ -1,0 +1,13 @@
+body{
+    background-color: aliceblue;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+#start{
+position: absolute;
+width: 10%;
+margin-top: 45%;
+margin-left: 45%
+}
